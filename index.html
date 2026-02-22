@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTools CLI | Advanced Web Intelligence Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/Gh7Gnn18/Web-Tools.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Motion One (Framer-like engine) -->
+    <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="grid-bg"></div>
+        <div class="glow-orb" style="top: -10%; left: -10%;"></div>
+        <div class="glow-orb"
+            style="bottom: -10%; right: -10%; background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, transparent 70%);">
+        </div>
+
+        <nav id="navbar">
+            <div class="container nav-content">
+                <div class="logo ascii-logo">
+                    <pre>██╗    ██╗███████╗██████╗     ████████╗ ██████╗  ██████╗ ██╗     ███████╗
+██║    ██║██╔════╝██╔══██╗    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
+██║ █╗ ██║█████╗  ██████╔╝       ██║   ██║   ██║██║   ██║██║     ███████╗
+██║███╗██║██╔══╝  ██╔══██╗       ██║   ██║   ██║██║   ██║██║     ╚════██║
+╚███╔███╔╝███████╗██████╔╝       ██║   ╚██████╔╝╚██████╔╝███████╗███████║
+ ╚══╝╚══╝ ╚══════╝╚═════╝        ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝</pre>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#docs">Docs</a>
+                    <a href="https://github.com/abhinavgautam08/webtools-cli/issues/new">Feedback</a>
+                    <a href="https://github.com/abhinavgautam08/webtools-cli">GitHub</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container">
+                    <h1>The direct path from <br><span class="text-gradient">URL to Intelligence.</span></h1>
+                    <p>An advanced, self-hosted web intelligence suite for researchers and developers. OSINT, SEO, AI
+                        Analysis, and Forensics—all from your terminal.</p>
+
+                    <div class="install-cmd" id="copyBtn">
+                        <i data-lucide="terminal"></i>
+                        <span id="cmdText">pip install webtools-cli</span>
+                        <i data-lucide="copy" class="copy-icon"></i>
+                    </div>
+
+                    <div class="terminal-container">
+                        <div class="terminal-header">
+                            <div class="dots">
+                                <div class="dot red"></div>
+                                <div class="dot yellow"></div>
+                                <div class="dot green"></div>
+                            </div>
+                            <div class="terminal-title">webtools --cli</div>
+                        </div>
+                        <div class="terminal-body">
+                            <img src="https://i.postimg.cc/7LXjQqBm/CLI.png" alt="WebTools CLI Interface">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features" id="features">
+                <div class="container">
+                    <div class="section-title">
+                        <h2 class="text-gradient">Engineered for Stealth & Depth</h2>
+                        <p style="color: var(--text-secondary);">Everything you need to map the web, without the
+                            detection.
+                        </p>
+                    </div>
+
+                    <div class="feature-grid">
+                        <div class="feature-card glass">
+                            <i data-lucide="fingerprint" class="feature-icon"></i>
+                            <h3>OSINT Suite</h3>
+                            <p>Extract emails, social handles, tech stacks, and hidden metadata with automated discovery
+                                logic.</p>
+                        </div>
+                        <div class="feature-card glass">
+                            <i data-lucide="brain-circuit" class="feature-icon"></i>
+                            <h3>AI Analysis</h3>
+                            <p>Automated summarization, sentiment detection, and readability scoring powered by local
+                                intelligence.</p>
+                        </div>
+                        <div class="feature-card glass">
+                            <i data-lucide="shield-alert" class="feature-icon"></i>
+                            <h3>Security Scout</h3>
+                            <p>Real-time honeypot detection, threat leveling, and anti-bot bypass for high-security
+                                domains.
+                            </p>
+                        </div>
+                        <div class="feature-card glass">
+                            <i data-lucide="image" class="feature-icon"></i>
+                            <h3>Image Forensics</h3>
+                            <p>Analyze ELA (Error Level Analysis) and AI likelihood to verify visual integrity from the
+                                CLI.
+                            </p>
+                        </div>
+                        <div class="feature-card glass">
+                            <i data-lucide="search" class="feature-icon"></i>
+                            <h3>SEO Auditor</h3>
+                            <p>Deep-audit heading hierarchy, broken links, image alt-text, and performance benchmarks.
+                            </p>
+                        </div>
+                        <div class="feature-card glass">
+                            <i data-lucide="cpu" class="feature-icon"></i>
+                            <h3>Edge Tunnels</h3>
+                            <p>Instant global UI access via Cloudflare tunnels with secure QR code sharing for mobile.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta">
+                <div class="container">
+                    <h2 style="font-size: 3rem; margin-bottom: 2rem;">Ready to scan <span
+                            class="text-gradient">smarter?</span></h2>
+                    <div class="cta-btns">
+                        <a href="https://pypi.org/project/webtools-cli/" class="btn-primary">Get Started Free</a>
+                        <a href="https://github.com/abhinavgautam08/webtools-cli" class="btn-secondary">View Source</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container footer-content">
+                <p>© <span id="currentYear"></span> WebTools CLI. Developed by <a
+                        href="https://abhinavgautam08.pages.dev" target="_blank" class="footer-name">Abhinav Adarsh</a>.
+                </p>
+                <div class="footer-links">
+                    <a href="https://github.com/abhinavgautam08/webtools-cli">GitHub</a>
+                    <a href="#features">Features</a>
+                    <a href="https://pypi.org/project/webtools-cli/">PyPI</a>
+                </div>
+            </div>
+        </footer>
+
+    </div><!-- /.page-wrapper -->
+
+    <!-- Mobile Floating Menu Button -->
+    <div class="mobile-fab" id="mobileMenuBtn">
+        <i data-lucide="menu"></i>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <div class="mobile-nav-links">
+                <a href="#features">Features</a>
+                <a href="#docs">Docs</a>
+                <a href="https://github.com/abhinavgautam08/webtools-cli/issues/new">Feedback</a>
+                <a href="https://github.com/abhinavgautam08/webtools-cli">GitHub</a>
+                
+                <div class="mobile-menu-footer">
+                    <i data-lucide="x" class="close-menu" id="closeMenuBtn"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
