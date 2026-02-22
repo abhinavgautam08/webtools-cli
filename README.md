@@ -64,9 +64,9 @@ playwright install chromium
 - **Honeypot Detector**: Identifies hidden traps and anti-bot measures (Cloudflare/CAPTCHAs).
 
 ### Modern Experience
-- **Matrix Background**: "Flickering Grid" animated dashboard (Canvas-based).
-- **Responsive Preview**: Live rendering scaling for desktop and mobile viewpoints.
-- **History & Stats**: Phase-by-phase performance tracking and historical session management.
+- **Premium Visual Engine**: Sleek glassmorphism, fluid gradients, and premium Motion One animations.
+- **Edge-to-Edge Responsiveness**: Rock-solid layout stability on every device, from iPhone SE to 4K monitors.
+- **Dynamic Interactions**: Flickering grid backgrounds, hover-glow effects, and high-performance transitions.
 
 ---
 
